@@ -1,0 +1,21 @@
+Ertuğrul Kaşıkçı 200104004097
+
+
+Program:
+I used a final function with the name getInput to create game menu. In this menu all facilities of the homework except playVector function
+can be tested. playVector function also can be selected from the main menu that is constructed in main function.
+
+Input Type:
+The moving inputs in my homework must be typed as 2bd which means down the object in 2b location to down. Uppercase letters are allowed.
+
+Score Functions:
+The score functions of the games are special for every game. The best score is 0 for all of them.
+For peg solitaire the score is calculated by subtracting 1 from the number of remaining pegs.
+For eight puzzle every number that is on the right place subtracts one from 8 which is the worst case.
+For klotski if any character that 2*2 object has takes it's place, then the function subtracts 1 one from 4 which is the worst case
+If the game is terminated before it is over the score is printed.
+
+playVector and autoAll Functions:
+Peg solitaire can be solved in a short time but for other games this is not possible. So in playVector and autoAll functions the program
+works to finish the games for a long time. I could solve this problem by not printing the current boards but to show that the function
+is working the program prints the current boards.
